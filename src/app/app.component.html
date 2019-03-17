@@ -1,5 +1,4 @@
-<!-- TODO : Add class ".has-accident" to the panel block below when an accient is detected -->
-<div class="panel">
+<div class="panel" [ngClass]="{ 'has-accident': hasAccident }">
   <div class="left-part"></div>
   <div class="right-part">
     <!-- Content start -->
